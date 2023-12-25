@@ -5,8 +5,12 @@ here are the instructions recieved in orde to achieve this project: "enjoy"
 
 The National Higher School of Artificial Intelligence
 Data Structures and Algorithms 2
-Programming Mini Project: Electricity Network Management System
+
+Programming Mini Project:
+Electricity Network Management System
+
 Submission deadline: Saturday 16/12/2023, not later than 11:59pm
+
 The national electricity company wants to develop a system to manage the power consumption and 
 billing by its customers on its national network. The company has organised the networks into regions 
 and, within each region, into cities, and then districts within each city. The novelty is that the company 
@@ -23,11 +27,16 @@ for which the company charges the customer 5 DA per kilowatt hour consumed, and 
 of energy the customer has injected into the network for which he/she gets a credit of 3 DA per 
 kilowatt hour injected. Depending on the difference between these two amounts, either the customer 
 will pay the difference or gets money transferred to his bank account by the electricity company.
+
+
+
 Because the company would like to eventually do a lot of mining of the data to better understand its 
 customers and optimise the energy consumption, hence investments on new infrastructures, it keeps 
 data about each household (customer). This data includes the name and ID number of the electricity 
 account holder, the number of family members, and their ages. The company obviously has the 
 address of the customer, hence his/her district, city, and region.
+
+
 On the other hand, the company has for each city a marketing department with its specific budget. The 
 role of this department is twofold: (1) encourage customers to produce energy that can be injected into 
 the system (which will on the long run relieve the company from having to make more infrastructure 
@@ -42,18 +51,29 @@ department will get a decrease of 15% to its budget while the previous 9 least p
 will get a decrease of 10% to their respective budgets. (The salaries of the employees will also 
 logically be increased or decreased to reflect the performances of their respective departments, but you 
 do not have to worry about this aspect in this mini-project.)
+
+
+
 Since the company wants to encourage households to inject electricity into the network, a national 
 prize is given monthly to the person who has injected the most energy. This amount is cumulative 
 month after month. This means that a person who gets the prize one month would be a little 
 advantaged the following month, though another customer could become the new national prize 
 winner.
+
+
 The Electricity Company Management System (ECMS) we want to build needs to keep all the needed 
 data about the following:
+
+
+
  the information about each household as explained above;
  data about the electricity consumption and/or production by each household (i.e. customer);
  on each day of the year, whether the day is rainy/sunny/cloudy/snowy, the day maximum and 
 minimum temperatures, and the number of sunny hours; and 
  the amount each department has spent on any month from the budget that was allocated to it.
+
+
+
 This data will be kept and accumulated as appropriate over the years.
 The ECMS should organise all this data in such a way that all operations of access to the data and of 
 processing it to return the below results should be done as quickly as possible. (Though you are only 
@@ -75,7 +95,9 @@ the least performing department.
  One may wish to display any of the previous results for a given month, year, or even period 
 (from a start date to an end date).
  Appropriate relevant figures (curves, bar charts, etc.) could be displayed for the previous 
-results.
+results
+
+
 Part A of the Project: 
 We have decided to store the data in a Binary Search Tree (plus any other ADTs as you see 
 appropriate)
@@ -86,7 +108,10 @@ purposes you will need to explain.
 3. Implement all the operations, making use as much as possible of any ADTs and 
 operations we have studied in class.
 4. Write a program which computes the average time for displaying the various results
-mentioned above. 
+mentioned above
+
+
+
 Part B of the Project: 
 We have decided to store the data in an AVL Tree.
 5. Implement all the operations, making use as much as possible of any ADTs and 
@@ -94,3 +119,8 @@ operations we have studied in class.
 6. Write a program which computes the average time for displaying the various results
 mentioned above. 
 7. Compare the results obtained in questions 4 and 6, and give your conclusion.
+
+
+
+
+
