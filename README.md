@@ -1,6 +1,6 @@
 this is a mini project within our DSA course at ENSIA, it was prepared by proffessor Ahmed Guessoum and realized by me and my team : mustapha belkebir, ines benchrif, mouchaal ahmed el amine,
 
-here are the instructions recieved in orde to achieve this project: "enjoy"
+here are the instructions recieved in order to achieve this project: "enjoy"
 
 
 The National Higher School of Artificial Intelligence
